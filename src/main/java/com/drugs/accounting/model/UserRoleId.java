@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 
 @AllArgsConstructor
 @NoArgsConstructor
-@EqualsAndHashCode
+@EqualsAndHashCode(of = {"userId", "roleId", "dateStart", "dateEnd"})
 public class UserRoleId implements Serializable{
 	/**
 	 * 

@@ -19,7 +19,7 @@ import lombok.Setter;
 @Getter
 @Setter
 @Entity
-@Table(name = "refresh", schema = "sign")
+@Table(name = "refresh"/*, schema = "sign"*/)
 public class RefreshToken {
 
 	@Id
